@@ -1,0 +1,40 @@
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.login-form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form input{
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+}
+
+.login-form input[type="submit"]{
+    background-color: red;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer
+}
+
+nav a{
+    text-decoration: none;
+    margin: 5px;
+    font-size: 20px;
+    color: black
+}
